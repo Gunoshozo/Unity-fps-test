@@ -294,13 +294,14 @@ MonoBehaviour:
     buildMethod: 0
     hurryUp: 0
     preTextLength: 0
+    speedMultiplier: 0
     characterMultiplier: 0
     charsPerSecond: 25
     gradientLineSize: 0
   fpsCounter: {fileID: 744117622}
   deltaTime: 0
   frameRate: 60
-  buildMethod: 1
+  buildMethod: 3
   charsPerSecond: 35
   gradientLineSize: 20
 --- !u!4 &296475867
@@ -638,11 +639,11 @@ RectTransform:
   m_Father: {fileID: 243189563}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -201.51637, y: -241.75935}
-  m_SizeDelta: {x: 882.9673, y: 243.4813}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -0.0006713867}
+  m_SizeDelta: {x: 882.9673, y: 242.4813}
+  m_Pivot: {x: 0, y: 0}
 --- !u!114 &1196656135
 MonoBehaviour:
   m_ObjectHideFlags: 0
